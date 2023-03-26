@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+certifi = "*"
+django = "*"
+django-filter = "*"
+djangorestframework-simplejwt = "*"
+djangorestframework = "==3.14"
+djangorestframework-stubs = "*"
+drf-yasg = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+mypy = "*"
+django-stubs = "*"
+drf-yasg-stubs = "*"
+
+[requires]
+python_version = "3.10"
